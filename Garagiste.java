@@ -14,4 +14,12 @@ public class Garagiste {
 	public String getAdresse() {
 		return this.adresse ;
 	}
+
+	public void setNom(String NOM){
+		this.nom = NOM;
+	}
+       public void setPrenom(String prenom){
+                this.prenom = prenom;
+        }
+
 }
