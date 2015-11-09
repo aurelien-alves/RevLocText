@@ -6,4 +6,12 @@ public class Garagiste {
 		this.nom = nom ;
 		this.adresse = adresse ;
 	}
+	
+	public String getNom() {
+		return this.nom ;
+	}
+
+	public String getAdresse() {
+		return this.adresse ;
+	}
 }
